@@ -1,0 +1,130 @@
+/*Texto hero image*/
+.hero_titulo{
+    font-size: 4.5rem;
+}
+.hero_desc{
+    font-size: 2rem;
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E9C46A;
+}
+.bgimage{
+    height: 100vh;
+    background: url('../img/heroImage.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+/*Imagem Sobre*/
+.imagemSobre{
+    width: 100%;
+    height: 450px;
+}
+
+/*Serviços*/
+.servicesText.card{
+    height: 280px;
+    cursor: pointer;
+}
+.servicesIcon{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+}
+.card:hover .servicesIcon{
+    color: #E76F51;
+}
+.servicesText:hover{
+    border: 1px solid #E76F51;
+}
+/*Menu*/
+.navbar{
+    background-color: #264653;
+}
+.navbar a{
+    color: #E9C46A;
+}
+.navbar a:hover{
+    color: #edd495;
+    background-color: #19323c;
+}
+
+.contactIcon{
+    font-size: 56px;
+    color: #E76F51;
+}
+
+.glass{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+}
+#sobre, #servicos, #portifolio{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/*footer*/
+footer{
+    background-color: #264653;
+}
+.main-title{
+    color: #E9C46A;
+}
+
+#contact-area{
+    text-align: center;
+}
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #E9C46A;
+}
+.contact-box i{
+    color: #E9C46A;
+    border: solid 1px #E9C46A;
+    border-radius: 6px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 24px;
+    margin-bottom: -15px;
+    margin-top: 20px;
+}
+.contact-box p{
+    font-size: 16px;
+    color: #E9C46A;
+}
+.contact-title{
+    text-decoration: none;
+    font-weight: bold;
+    color: #E9C46A;
+}
+
+/*Copy*/
+#copy-area .container{
+    margin-top: -50px;
+    padding: 10px 0;
+    text-align: center;
+    color: #E9C46A;
+}
+#copy-area .container p{
+    margin-bottom: 0;    
+}
+#copy-area .container img{
+    width: 30px;
+}
