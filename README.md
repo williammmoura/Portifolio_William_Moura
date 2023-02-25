@@ -17,7 +17,7 @@
     A estrutura básica que foi usada para fazer este portifólio foi HTML (linguagem de marcação), CSS (linguagem de estilização) e o framework Bootstrap.
 </p>
 <p align="justify">
-    Neste projeto foi feito um menu, fixado ao topo da página, possuindo 4 links que direcionam o usuário até as seções "Início", "Sobre", "Portifólio" e "Contato".
+    Neste projeto foi feito como uma "one-page" com um menu, fixado ao topo da página, possuindo 4 links que direcionam o usuário até as seções "Início", "Sobre", "Portifólio" e "Contato".
 </p>
 
 <div align="center">
